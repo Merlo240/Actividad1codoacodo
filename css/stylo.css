@@ -1,0 +1,286 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+
+
+#main {
+	padding-bottom: 200px;
+	background-image: url(../img/header.jpg);
+	background-position: center;
+	background-size: cover;
+	border:1px solid black;
+}
+
+.logo{
+	width: 300px;
+	float: left;
+	padding: 10px;
+	margin-left: 87px;
+	margin-top: 28px;
+
+}
+nav ul{
+	list-style: none;
+	float: right;
+	display: flex;
+	margin: 0;
+	padding:0;
+	padding-right: 35px;
+	padding-top: 40px;
+}
+
+nav ul li a{
+	color: #fff;
+	padding: 12px 11px;
+	text-decoration: none;
+	line-height: 63px;
+	font-size: 20px;
+
+}
+nav ul li a:hover{
+	background-color: #4068b8;
+	transition: background-color .7s;
+	 -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+
+}
+
+.wrapper {
+	width: 90%;
+	margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 9px;
+  margin-top: 50px;
+}
+
+.wrapperr {
+	width: 90%;
+	margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3px;
+  margin-top: 10px;
+}
+.filas{
+	text-align: center;
+}
+
+.filasA img{
+margin-top: 30px;
+}
+.filasA{
+	text-align: center;
+}
+.filasA h2{
+	margin-top: 60px;
+}
+.filasA p{
+	margin-top: 30px;
+}
+
+.filasA:hover{
+	 
+  box-shadow: 0px 2px 30px #333333;
+  transition: box-shadow.7s
+}
+#nosotros{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	margin-top: 60px;
+}
+
+#Anuncios{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.foto{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+.precio{
+	color: green;
+	margin-top:10px;
+}
+
+.contenido2:hover{
+	background-color:#333333;
+	 transition: background-color .7s
+	 -webkit-box-shadow: 0px 2px 30px #333333;
+  -moz-box-shadow: 0px 2px 30px #333333;
+  box-shadow: 0px 2px 30px #333333;
+}
+
+.contenido3{
+	background-color: #F3F1F0;
+	border: 1px solid #E1DDDB;
+	padding: 10px;
+}
+#servis{
+	width: 80%;
+	margin: auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  margin-top: 12px; 
+}
+
+.descripcion {
+line-height: 30px;
+font-size: 17px;
+}
+
+.f1{
+	margin: auto;
+}
+.texto{
+font-size: 20px;
+
+}
+
+.wrapper button{
+	margin-top: 10px;
+	width: 100%;
+	font-family: arial;
+  color: #FFFFFF !important;
+  font-size: 15px;
+  text-shadow: 1px 1px 0px #FFFFFF;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 40px;
+  border-radius: 1px;
+  border: 2px solid #FFAE00;
+  background: #FFAE00;
+}
+
+.wrapper button:hover{
+ background: #e1ed39;
+ transition: background-color .7s;
+}
+
+#cfinal{
+	margin-top: 30px;
+	text-align:right;
+	margin-right: 70px;
+
+}
+
+
+
+#cfinal button{
+	  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  background: #66c44e;
+  padding: 11px 27px 12px 27px;
+  text-decoration: none;
+}
+
+#cfinal button:hover{
+ background: #6ceb52;
+ transition: background-color .7s;
+}
+
+#navegacion{
+border: 1px solid #383737;
+background-color: #383737;
+color: #fff;
+padding-bottom:10px;
+}
+
+footer {
+	border: 1px solid #383737;
+	margin-top: 20px;
+}
+
+
+footer nav ul{
+	list-style: none;
+	float: left;
+	display: flex;
+	margin: 0;
+	padding:0;
+	margin-top: 20px;
+	padding-right: 40px;
+	margin-left: 40px;
+
+}
+
+ footer nav ul li a{
+	color: #fff;
+	padding: 7px 18px;
+	text-decoration: none;
+	line-height: 39px;
+	font-size: 17px;
+}
+
+ footer nav ul li a:hover{
+ 	   background: #141413;
+ 	transition: background-color .7s;
+ }
+#imagen{
+padding-top: 100px;
+background-image: url(../img/encuentra.jpg);
+background-position: center;
+}
+
+#design{
+	margin-left: 70%;
+	margin-top: 30px;
+}
+
+#texto5{
+	width: 430px;
+	color: white;
+	font-size: 2.50vw;
+	margin-bottom: 4%;
+	margin-left: 100px;
+}
+
+#texto7{
+	width: 730px;
+	color: white;
+	font-size: 1.20vw;
+	margin-bottom: 5%;
+	margin-left: 100px;
+}
+#btn{
+	margin-left: 100px;
+	margin-bottom: 50px;
+  color: #FFFFFF !important;
+  font-size: 18px;
+  padding: 10px 40px;
+  border-radius: 1px;
+  background: #FFAE00;
+}
+
+#btn:hover{
+	 background: #d5db18;
+	transition: background-color .7s;
+}
+
+#texto10{
+	width: 40%;
+margin-top: 40%;
+margin-left: 10%;
+color: white;
+font-size: 2.50vw;
+}
+
+#texto11{
+width: 16%;
+color: white;
+font-size: 2.10vw;
+margin-top: 2%;
+margin-left: 10%;
+}
